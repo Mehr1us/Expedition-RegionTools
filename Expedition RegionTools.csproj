@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+    <LangVersion>Latest</LangVersion>
+    <RootNamespace>mehr1us</RootNamespace>
+  </PropertyGroup>
+
+    <ItemGroup>
+        <Reference Include="D:/lib/Rainworld/*.dll">
+            <Private>false</Private>
+        </Reference>
+    </ItemGroup>
+
+</Project>

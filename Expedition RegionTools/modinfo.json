@@ -1,0 +1,10 @@
+{
+	"id": "mehr1us.expedition",
+	"name": "Expedition RegionTools",
+	"hide_version": true,
+	"authors": "mehr1us",
+	"description": "Adds Tools for adding expedition support for custom regions",
+	"requirements": ["expedition"],
+	"requirements_names": ["Expedition"],
+	"checksum_override_version": false
+}
