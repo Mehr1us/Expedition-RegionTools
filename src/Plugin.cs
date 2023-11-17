@@ -12,7 +12,6 @@ using System;
 
 namespace mehr1us.expedition
 {
-    //[BepInDependency("expedition", BepInDependency.DependencyFlags.HardDependency)]
     [BepInPlugin(PLUGIN_GUID, "Expedition RegionTools", "0.1")]
     public class Plugin : BaseUnityPlugin
     {
@@ -41,7 +40,7 @@ namespace mehr1us.expedition
                 }
                 catch (Exception e)
                 {
-                    Debug.Log($"[Expd RegionTools]  Exception at RainWorld.OnModsInit:\n{e}");
+                    Debug.Log($"[Expedition RegionTools]  Exception at RainWorld.OnModsInit:\n{e}");
                 }
             }
         }

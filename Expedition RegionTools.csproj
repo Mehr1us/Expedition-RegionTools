@@ -4,6 +4,7 @@
     <TargetFramework>net48</TargetFramework>
     <LangVersion>Latest</LangVersion>
     <RootNamespace>mehr1us</RootNamespace>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
   </PropertyGroup>
 
     <ItemGroup>
@@ -11,5 +12,9 @@
             <Private>false</Private>
         </Reference>
     </ItemGroup>
+
+    <Target Name="PostBuild" AfterTargets="PostBuildEvent">
+      <Exec Command="call copyDLL.bat" />
+    </Target>
 
 </Project>

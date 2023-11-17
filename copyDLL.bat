@@ -1,0 +1,1 @@
+robocopy "bin\Release\net48 " "Expedition RegionTools\plugins " /is /it /mir /im /if
