@@ -3,7 +3,7 @@
   <PropertyGroup>
     <TargetFramework>net48</TargetFramework>
     <LangVersion>Latest</LangVersion>
-    <RootNamespace>mehr1us</RootNamespace>
+    <RootNamespace>mehr1us.expedition</RootNamespace>
     <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
   </PropertyGroup>
 
@@ -11,6 +11,12 @@
         <Reference Include="D:/lib/Rainworld/*.dll">
             <Private>false</Private>
         </Reference>
+    </ItemGroup>
+
+    <ItemGroup>
+      <Compile Remove="planning\**" />
+      <EmbeddedResource Remove="planning\**" />
+      <None Remove="planning\**" />
     </ItemGroup>
 
     <Target Name="PostBuild" AfterTargets="PostBuildEvent">

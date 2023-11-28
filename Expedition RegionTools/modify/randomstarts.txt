@@ -1,4 +1,14 @@
 [MERGE]
+
+REGIONS
+PA [4]: X-Saint,Technomancer
+D7 : Dreamer
+
+END REGIONS
+
 //Test Test
 PA_S02
+PA_S01
+PA_S03
+
 [ENDMERGE]
